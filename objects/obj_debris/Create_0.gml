@@ -1,0 +1,12 @@
+image_speed = 0;
+image_index = choose(0, 1, 2);
+hsp = random_range(-2, 4);
+hsp_carry = 0;
+vsp = 0;
+vsp_carry = 0;
+grav = 0.5;
+v_velocity = 0;
+platformid = -4;
+angle = 6;
+onground = 0;
+depth = 2;

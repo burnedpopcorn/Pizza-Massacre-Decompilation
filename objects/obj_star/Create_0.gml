@@ -1,0 +1,13 @@
+image_index = random_range(0, 4);
+image_speed = 0;
+hsp = random_range(-5, 5);
+hsp_carry = 0;
+vsp = random_range(-2, -10);
+vsp_carry = 0;
+grav = 0.5;
+v_velocity = 0;
+platformid = -4;
+angle = 6;
+onground = 0;
+image_angle = random_range(0, 360);
+depth = 2;

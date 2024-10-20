@@ -1,0 +1,9 @@
+request = -4;
+type = "";
+callback_success = undefined;
+callback_failed = undefined;
+url = "";
+HTTP_Method = "";
+header_map = ds_map_create();
+body = "";
+alarm[0] = 1;

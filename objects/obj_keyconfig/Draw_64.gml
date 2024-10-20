@@ -1,0 +1,22 @@
+var _ks;
+
+draw_rectangle_color(0, 0, 960, 540, c_black, c_black, c_black, c_black, 0);
+_ks = keyselect;
+draw_set_font(global.font);
+draw_text_colour(280, 50, "BACK", c_white, c_white, c_white, c_white, (_ks == -1) ? 7 : 0.5);
+draw_text_colour(420, 50, "UP", c_white, c_white, c_white, c_white, (_ks == 0) ? 7 : 0.5);
+draw_text_colour(580, 50, scr_keyname(global.key_up), c_white, c_white, c_white, c_white, (_ks == 0) ? 7 : 0.5);
+draw_text_colour(420, 100, "DOWN", c_white, c_white, c_white, c_white, (_ks == 1) ? 7 : 0.5);
+draw_text_colour(580, 100, scr_keyname(global.key_down), c_white, c_white, c_white, c_white, (_ks == 1) ? 7 : 0.5);
+draw_text_colour(420, 150, "LEFT", c_white, c_white, c_white, c_white, (_ks == 2) ? 7 : 0.5);
+draw_text_colour(580, 150, scr_keyname(global.key_left), c_white, c_white, c_white, c_white, (_ks == 2) ? 7 : 0.5);
+draw_text_colour(420, 200, "RIGHT", c_white, c_white, c_white, c_white, (_ks == 3) ? 7 : 0.5);
+draw_text_colour(580, 200, scr_keyname(global.key_right), c_white, c_white, c_white, c_white, (_ks == 3) ? 7 : 0.5);
+draw_text_colour(420, 250, "JUMP", c_white, c_white, c_white, c_white, (_ks == 4) ? 7 : 0.5);
+draw_text_colour(580, 250, scr_keyname(global.key_jump), c_white, c_white, c_white, c_white, (_ks == 4) ? 7 : 0.5);
+draw_text_colour(420, 300, "ATTACK", c_white, c_white, c_white, c_white, (_ks == 5) ? 7 : 0.5);
+draw_text_colour(580, 300, scr_keyname(global.key_attack), c_white, c_white, c_white, c_white, (_ks == 5) ? 7 : 0.5);
+draw_text_colour(420, 350, "DASH", c_white, c_white, c_white, c_white, (_ks == 6) ? 7 : 0.5);
+draw_text_colour(580, 350, scr_keyname(global.key_dash), c_white, c_white, c_white, c_white, (_ks == 6) ? 7 : 0.5);
+draw_text_colour(420, 400, "PAUSE", c_white, c_white, c_white, c_white, (_ks == 7) ? 7 : 0.5);
+draw_text_colour(580, 400, scr_keyname(global.key_start), c_white, c_white, c_white, c_white, (_ks == 7) ? 7 : 0.5);

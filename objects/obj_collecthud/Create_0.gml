@@ -1,0 +1,9 @@
+image_speed = 0.25;
+image_alpha = 0;
+img_index = 0;
+collectval = 10;
+hsp = 0;
+vsp = 0;
+x -= camera_get_view_x(view_camera[0]);
+y -= camera_get_view_y(view_camera[0]);
+depth = -12;

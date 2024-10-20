@@ -1,0 +1,14 @@
+text[0] = "Welcome to the Tutorial!";
+scr_getinput();
+text_current = 0;
+text_last = 0;
+text_width = 800;
+text_x = 42;
+text_y = 424;
+showdialog = 1;
+dialogbox_y = 540;
+dialogchar_y = 540;
+dialogbox_stop = 0;
+char_current = 1;
+char_speed = 0.35;
+text[text_current] = string_wrap(text[text_current], text_width);

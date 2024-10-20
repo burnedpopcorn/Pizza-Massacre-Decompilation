@@ -1,0 +1,26 @@
+var bgID1, bgID2, bgID3, bgstillID1, bgstillID2, bgstillIDH1, bgstillIDH2, assetID1;
+
+bgID1 = layer_get_id("Backgrounds_1");
+bgID2 = layer_get_id("Backgrounds_2");
+bgID3 = layer_get_id("Backgrounds_3");
+bgstillID1 = layer_get_id("Backgrounds_still1");
+bgstillID2 = layer_get_id("Backgrounds_still2");
+bgstillIDH1 = layer_get_id("Backgrounds_stillH1");
+bgstillIDH2 = layer_get_id("Backgrounds_stillH2");
+assetID1 = layer_get_id("Assets_BG");
+layer_x(assetID1, lerp(0, camera_get_view_x(view_camera[0]) - 125, 0.1));
+layer_y(assetID1, lerp(0, camera_get_view_y(view_camera[0]) - 125, 0.1));
+layer_x(bgID1, lerp(0, camera_get_view_x(view_camera[0]), 0.5));
+layer_y(bgID1, lerp(0, camera_get_view_y(view_camera[0]), 0.5));
+layer_x(bgID2, lerp(0, camera_get_view_x(view_camera[0]), 0.4));
+layer_y(bgID2, lerp(0, camera_get_view_y(view_camera[0]), 0.5));
+layer_x(bgID3, lerp(0, camera_get_view_x(view_camera[0]), 0.3));
+layer_y(bgID3, lerp(0, camera_get_view_y(view_camera[0]), 0.3));
+layer_x(bgstillID1, camera_get_view_x(view_camera[0]));
+layer_y(bgstillID1, camera_get_view_y(view_camera[0]));
+layer_x(bgstillID2, camera_get_view_x(view_camera[0]));
+layer_y(bgstillID2, camera_get_view_y(view_camera[0]));
+layer_x(bgstillIDH1, lerp(0, camera_get_view_x(view_camera[0]), 0.5));
+layer_y(bgstillIDH1, camera_get_view_y(view_camera[0]));
+layer_x(bgstillIDH2, lerp(0, camera_get_view_x(view_camera[0]), 0.4));
+layer_y(bgstillIDH2, camera_get_view_y(view_camera[0]));

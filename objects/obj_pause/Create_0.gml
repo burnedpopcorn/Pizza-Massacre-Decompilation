@@ -1,0 +1,12 @@
+pause = false;
+select = 0;
+opt1y = 640;
+opt2y = 640;
+opt3y = 640;
+opt4y = 640;
+opt5y = 640;
+selectable = 0;
+bgalpha = 0;
+pausecooldown = 0;
+bgx = 0;
+bgy = 0;

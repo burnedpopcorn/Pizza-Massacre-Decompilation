@@ -1,0 +1,12 @@
+So Basically
+
+The GameJolt Extension should really be removed
+but to be somewhat faithful to the original, Ima keep it
+but i have commented out some GameJolt stuff to stop crashes
+
+also I have added enums
+so yeah
+
+also go to obj_disclaimer to bring back the old disclaimer
+
+obj_gamejoltLogIn is all commented out

@@ -1,0 +1,13 @@
+image_speed = 0.25;
+followerpos = 0;
+followerid = followerpos;
+followQueue = ds_queue_create();
+LAG_STEPS = 10;
+idlespr = spr_toppinshroom_idle;
+walkspr = spr_toppinshroom_walk;
+followid = obj_player1;
+followerspace = 0;
+maxfollowspace = 1;
+x_offs = 25;
+y_offs = 49;
+depth = -4;

@@ -1,0 +1,14 @@
+scr_getinput();
+lock = 0;
+start = 0;
+flash = 0;
+light = 0;
+layervis = 1;
+lay_id = layer_get_id("Assets_1");
+lay_id2 = layer_get_id("Assets_2");
+spr_id = layer_sprite_get_id(lay_id, "graphic_lighting");
+spr_id2 = layer_sprite_get_id(lay_id2, "graphic_darkness");
+darkalpha = 0.7;
+optselected = -1;
+titley = 1020;
+os = 0;
